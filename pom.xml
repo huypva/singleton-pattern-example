@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.codebyexample</groupId>
-    <artifactId>hello-world-example</artifactId>
+    <artifactId>singleton-pattern-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Parent</name>
 
     <modules>
-        <module>hello-world</module>
+        <module>singleton-pattern</module>
     </modules>
 
 </project>
