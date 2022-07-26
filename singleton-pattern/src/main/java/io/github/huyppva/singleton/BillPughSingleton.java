@@ -1,4 +1,4 @@
-package io.codebyexample.singletonpattern;
+package io.github.huyppva.singleton;
 
 /**
  * @author huypva

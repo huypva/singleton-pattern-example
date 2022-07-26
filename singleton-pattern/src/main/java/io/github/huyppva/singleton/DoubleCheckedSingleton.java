@@ -1,4 +1,4 @@
-package io.codebyexample.singletonpattern;
+package io.github.huyppva.singleton;
 
 /**
  * @author huypva
@@ -14,7 +14,7 @@ public class DoubleCheckedSingleton {
   public static DoubleCheckedSingleton getInstance() {
     if (instance == null) {
       synchronized (DoubleCheckedSingleton.class) {
-        if (instance != null) {
+        if (instance == null) {
           instance = new DoubleCheckedSingleton();
         }
       }
@@ -24,6 +24,6 @@ public class DoubleCheckedSingleton {
   }
 
   public void operate() {
-    System.out.println("DoubleCheckingSingleton");
+    System.out.println("DoubleCheckedSingleton");
   }
 }
