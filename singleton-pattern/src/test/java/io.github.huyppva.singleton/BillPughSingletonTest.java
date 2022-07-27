@@ -13,10 +13,6 @@ class BillPughSingletonTest {
   private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
   @Test
-  void getInstance() {
-  }
-
-  @Test
   void operate() {
     System.setOut(new PrintStream(outputStreamCaptor));
     BillPughSingleton.getInstance().operate();
